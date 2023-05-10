@@ -5,7 +5,7 @@
 
 # Como Ejecutar
 - Teniendo node instalado en la maquina
-- Abra una terminal y ubiquese en la carpeta movie-webpage
+- Abra una terminal y ubiquese en la carpeta principal del projecto donde se encuentra el archivo package.json
 - Ejecute `npm install`
 - Ejecute `yarn start`
 - Si la pagina no abre sola digite `http://localhost:3000/` en el navegador, preferiblemente Chrome
