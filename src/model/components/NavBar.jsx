@@ -5,7 +5,7 @@ import { Navbar, Container } from "react-bootstrap";
 function NavBar() {
   return (
     <Fragment>
-      <Navbar>
+      <Navbar bg="dark" variant="dark">
         <Container>
           <Navbar.Brand href="#home">
             <img
@@ -13,9 +13,9 @@ function NavBar() {
               src={logo}
               width="30"
               height="30"
-              // className="d-inline-block align-left"
+              className="d-inline-block align-top"
             />{" "}
-            <h1>Mis Peliculas Favoritas</h1>
+            Mis Peliculas Favoritas
           </Navbar.Brand>
         </Container>
       </Navbar>

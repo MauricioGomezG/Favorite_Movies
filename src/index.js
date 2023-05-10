@@ -15,16 +15,3 @@ root.render(
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();
-
-$(document).scroll(function() {
-  navbarScroll();
-});
-
-function navbarScroll() {
-  var y = window.scrollY;
-  if (y > 10) {
-    $('.header').addClass('small');
-  } else if (y < 10) {
-    $('.header').removeClass('small');
-  }
-}
