@@ -3,8 +3,6 @@
 # Requisitos
 - Node installado para ejecutar comandos npm
 
-Buenas profe, es la primera pagina web que hago usando react y bootstrap asi que califiqueme con amor por favor
-
 # Como Ejecutar
 - Teniendo node instalado en la maquina
 - Abra una terminal y ubiquese en la carpeta movie-webpage
